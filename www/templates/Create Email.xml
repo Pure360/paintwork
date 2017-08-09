@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="urn:localhost-paint" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns2="http://xml.apache.org/xml-soap" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+	<SOAP-ENV:Body>
+		<ns1:handleRequest>
+			<contextId xsi:type="xsd:string">01234567890</contextId>
+			<className xsi:type="xsd:string">bus_facade_campaign_email</className>
+			<processName xsi:type="xsd:string">create</processName>
+			<entityData xsi:type="ns2:Map">
+				<item>
+					<key xsi:type="xsd:string">messageName</key>
+					<value xsi:nil="true"/>
+				</item>
+				<item>
+					<key xsi:type="xsd:string">languageCode</key>
+					<value xsi:type="xsd:string">en_GB.ISO8859-15</value>
+				</item>
+				<item>
+					<key xsi:type="xsd:string">templateName</key>
+					<value xsi:type="xsd:string">email-msg-default</value>
+				</item>
+				<item>
+					<key xsi:type="xsd:string">subject</key>
+					<value xsi:nil="true"/>
+				</item>
+				<item>
+					<key xsi:type="xsd:string">variations</key>
+					<value SOAP-ENC:arrayType="xsd:ur-type[0]" xsi:type="SOAP-ENC:Array"/>
+				</item>
+				<item>
+					<key xsi:type="xsd:string">imageFile</key>
+					<value xsi:nil="true"/>
+				</item>
+				<item>
+					<key xsi:type="xsd:string">attachmentFile</key>
+					<value xsi:nil="true"/>
+				</item>
+				<item>
+					<key xsi:type="xsd:string">bodyHtml</key>
+					<value xsi:nil="true"/>
+				</item>
+				<item>
+					<key xsi:type="xsd:string">bodyPlain</key>
+					<value xsi:nil="true"/>
+				</item>
+				<item>
+					<key xsi:type="xsd:string">trackHtmlInd</key>
+					<value xsi:type="xsd:string">N</value>
+				</item>
+				<item>
+					<key xsi:type="xsd:string">trackPlainInd</key>
+					<value xsi:type="xsd:string">N</value>
+				</item>
+				<item>
+					<key xsi:type="xsd:string">sendToFriendHtmlInd</key>
+					<value xsi:type="xsd:string">N</value>
+				</item>
+				<item>
+					<key xsi:type="xsd:string">sendToFriendPlainInd</key>
+					<value xsi:type="xsd:string">N</value>
+				</item>
+				<item>
+					<key xsi:type="xsd:string">notifyClickPlainInd</key>
+					<value xsi:type="xsd:string">N</value>
+				</item>
+				<item>
+					<key xsi:type="xsd:string">notifyClickHtmlInd</key>
+					<value xsi:type="xsd:string">N</value>
+				</item>
+				<item>
+					<key xsi:type="xsd:string">notifyOpenInd</key>
+					<value xsi:type="xsd:string">N</value>
+				</item>
+				<item>
+					<key xsi:type="xsd:string">customFromDesc</key>
+					<value xsi:nil="true"/>
+				</item>
+				<item>
+					<key xsi:type="xsd:string">allowInvalidCustomFieldsInd</key>
+					<value xsi:type="xsd:string">N</value>
+				</item>
+				<item>
+					<key xsi:type="xsd:string">testDataContentType</key>
+					<value xsi:type="xsd:string">both</value>
+				</item>
+				<item>
+					<key xsi:type="xsd:string">testAddressesEmail</key>
+					<value xsi:nil="true"/>
+				</item>
+				<item>
+					<key xsi:type="xsd:string">testAddressesEmailInd</key>
+					<value xsi:type="xsd:string">N</value>
+				</item>
+				<item>
+					<key xsi:type="xsd:string">dynamicReplyInd</key>
+					<value xsi:type="xsd:string">N</value>
+				</item>
+				<item>
+					<key xsi:type="xsd:string">slsEnabledInd</key>
+					<value xsi:type="xsd:string">N</value>
+				</item>
+				<item>
+					<key xsi:type="xsd:string">googleTrackingEnabledInd</key>
+					<value xsi:type="xsd:string">N</value>
+				</item>
+				<item>
+					<key xsi:type="xsd:string">dcStormEnabledInd</key>
+					<value xsi:type="xsd:string">N</value>
+				</item>
+				<item>
+					<key xsi:type="xsd:string">alternativeAnalyticString</key>
+					<value xsi:nil="true"/>
+				</item>
+				<item>
+					<key xsi:type="xsd:string">analyticData</key>
+					<value xsi:type="ns2:Map">
+						<item>
+							<key xsi:type="xsd:string">utm_campaign</key>
+							<value xsi:nil="true"/>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">utm_source</key>
+							<value xsi:nil="true"/>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">utm_medium</key>
+							<value xsi:nil="true"/>
+						</item>
+						<item>
+							<key xsi:type="xsd:string">_$ja</key>
+							<value xsi:nil="true"/>
+						</item>
+					</value>
+				</item>
+				<item>
+					<key xsi:type="xsd:string">linkSuffix</key>
+					<value xsi:type="xsd:string"/>
+				</item>
+				<item>
+					<key xsi:type="xsd:string">resendToNonOpensInd</key>
+					<value xsi:type="xsd:string">N</value>
+				</item>
+				<item>
+					<key xsi:type="xsd:string">resendToNonOpensSubject</key>
+					<value xsi:nil="true"/>
+				</item>
+			</entityData>
+			<processData xsi:nil="true"/>
+		</ns1:handleRequest>
+	</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

@@ -1,0 +1,68 @@
+a:link { text-decoration: underline; color: #009900; font-weight: normal;}
+a:hover { text-decoration: underline; color: #333333;}
+a:active { text-decoration: underline; color: #009900; }
+a:visited { text-decoration: underline; color: #009900; }
+
+#submit:hover { background: #009900; color: #FFFFFF; cursor: pointer}
+
+body {
+	color: #666666;
+	font-family: helvetica,verdana,arial,sans-serif;
+	font-size: 12px;
+	background: #FFFFFF;
+}
+
+select {
+	background: #FFFFFF;
+	color: #666666;
+	border-width: 1px;
+	border-color: #CCCCCC;
+	border-style: solid;
+	font-size: 11px;
+}
+
+form {
+	margin: 0px;
+}
+
+#content {
+	background: #FFFFFF;
+	margin: 2em auto 0px auto;
+	width: 1000px;
+	padding:1em;
+	border:1px solid #ccc;
+	text-align: left;
+}
+
+input, textarea {
+	background: #FFFFFF;
+	color: #333333;
+	border-width: 1px;
+	border-color: #CCCCCC;
+	border-style: solid;
+	font-size: 10px;
+	padding: 2px;
+	margin: 2px;
+}
+
+h4 {
+	color: #FFFFFF;
+	background: #33CC33;
+	font-size: 22px;
+	text-align: left;
+	letter-spacing: 0px;
+	padding: 10px;
+	padding-bottom: 5px;
+	margin: 0px;
+	font-weight: bold;
+ 	white-space: nowrap;
+}
+
+.max { width: 600px; }
+
+textarea {
+	overflow: auto;
+	white-space: nowrap;
+}
+
+label { display: block; margin-top: 10px; }

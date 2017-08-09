@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="urn:localhost-paint" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns2="http://xml.apache.org/xml-soap" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+	<SOAP-ENV:Body>
+		<ns1:handleRequest>
+			<contextId xsi:type="xsd:string">A-503c9f3c6137e350278961</contextId>
+			<className xsi:type="xsd:string">bus_facade_eventNotification</className>
+			<processName xsi:type="xsd:string">getBatch</processName>
+			<entityData xsi:type="ns2:Map">
+			
+			</entityData>
+			<processData xsi:type="ns2:Map">
+				<item>
+					<key xsi:type="xsd:string">clientType</key>
+					<value xsi:type="xsd:string">CLIENT_PULL</value>
+				</item>
+				<item>
+					<key xsi:type="xsd:string">notificationTypes</key>
+                    <value xsi:type="xsd:string">CLICK,OPEN,BOUNCE,BLOCKED,SOFTBOUNCE,OPTOUT,OPTIN,SIGNUP,DELIVERYSTART,DELIVERY</value>
+				</item>
+				<item>
+					<key xsi:type="xsd:string">maxNotifications</key>
+					<value xsi:nil="true"/>
+				</item>
+				<item>
+					<key xsi:type="xsd:string">markAsReadInd</key>
+					<value xsi:type="xsd:string">N</value>
+				</item>
+				<item>
+					<key xsi:type="xsd:string">markAsProcessingInd</key>
+					<value xsi:type="xsd:string">N</value>
+				</item>
+				<item>
+					<key xsi:type="xsd:string">customFieldNames</key>
+					<value xsi:nil="true"/>
+				</item>	
+                <item>
+					<key xsi:type="xsd:string">encoding</key>
+					<value xsi:type="xsd:string">plain</value>
+				</item>
+			</processData>
+		</ns1:handleRequest>
+	</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

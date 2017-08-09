@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="urn:localhost-paint" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns2="http://xml.apache.org/xml-soap" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+	<SOAP-ENV:Body>
+		<ns1:handleRequest>
+			<contextId xsi:type="xsd:string">01234567890</contextId>
+			<className xsi:type="xsd:string">bus_facade_file</className>
+			<processName xsi:type="xsd:string">upload</processName>
+			<entityData xsi:type="ns2:Map">
+				<item>
+					<key xsi:type="xsd:string">fileCategory</key>
+					<value xsi:type="xsd:string">PAINT</value>
+				</item>
+				<item>
+					<key xsi:type="xsd:string">fileName</key>
+					<value xsi:type="xsd:string">temp_file_name</value>
+				</item>
+				<item>
+					<key xsi:type="xsd:string">transferEncoding</key>
+					<value xsi:type="xsd:string">plain</value>
+				</item>
+				<item>
+					<key xsi:type="xsd:string">chunk</key>
+					<value xsi:type="xsd:string">1</value>
+				</item>
+				<item>
+					<key xsi:type="xsd:string">chunkData</key>
+					<value xsi:type="xsd:string">
+						username+1@pure360.com,firstname1,lastname1
+						username+2@pure360.com,firstname2,lastname2
+						username+3@pure360.com,firstname3,lastname3
+						username+4@pure360.com,firstname4,lastname4
+						username+5@pure360.com,firstname5,lastname5
+					</value>
+				</item>
+			</entityData>
+			<processData xsi:nil="true"/>
+		</ns1:handleRequest>
+	</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

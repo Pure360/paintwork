@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="urn:localhost-paint" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns2="http://xml.apache.org/xml-soap" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+	<SOAP-ENV:Body>
+		<ns1:handleRequest>
+			<contextId xsi:type="xsd:string">01234567890</contextId>
+			<className xsi:type="xsd:string">bus_facade_campaign_delivery</className>
+			<processName xsi:type="xsd:string">create</processName>
+			<entityData xsi:type="ns2:Map">
+				<item>
+					<key xsi:type="xsd:string">messageId</key>
+					<value xsi:nil="true"/>
+				</item>
+				<item>
+					<key xsi:type="xsd:string">maxSendPerHour</key>
+					<value xsi:nil="true"/>
+				</item>
+				<item>
+					<key xsi:type="xsd:string">identityTargetId</key>
+					<value xsi:nil="true"/>
+				</item>
+				<item>
+					<key xsi:type="xsd:string">listIds</key>
+					<value xsi:nil="true"/>
+				</item>
+				<item>
+					<key xsi:type="xsd:string">filterIds</key>
+					<value xsi:nil="true"/>
+				</item>
+				<item>
+					<key xsi:type="xsd:string">deliveryDtTm</key>
+					<value xsi:nil="true"/>
+				</item>
+				<item>
+					<key xsi:type="xsd:string">deliveryStatus</key>
+					<value xsi:nil="true"/>
+				</item>
+				<item>
+					<key xsi:type="xsd:string">deliveryData</key>
+					<value xsi:type="ns2:Map">
+						<item>
+							<key xsi:type="xsd:string">splitTestDuration</key>
+							<value xsi:nil="true"/>
+						</item>	
+						<item>
+							<key xsi:type="xsd:string">splitTestWinnerCondition</key>
+							<value xsi:nil="true"/>
+						</item>	
+						<item>
+							<key xsi:type="xsd:string">socialMediaMessage</key>
+							<value xsi:nil="true"/>
+						</item>							
+						<item>
+							<key xsi:type="xsd:string">facebookPageId</key>
+							<value xsi:nil="true"/>
+						</item>							
+						<item>
+							<key xsi:type="xsd:string">facebookPageAccessToken</key>
+							<value xsi:nil="true"/>
+						</item>	
+						<item>
+							<key xsi:type="xsd:string">facebookPageName</key>
+							<value xsi:nil="true"/>
+						</item>							
+					</value>
+				</item>
+				<item>
+					<key xsi:type="xsd:string">forwardType</key>
+					<value xsi:type="xsd:string">IDENTITY</value>
+				</item>							
+				<item>
+					<key xsi:type="xsd:string">allowMixedLanguagesInd</key>
+					<value xsi:nil="true"/>
+				</item>							
+				<item>
+					<key xsi:type="xsd:string">allowMissingTrackingImageInd</key>
+					<value xsi:nil="true"/>
+				</item>							
+				<item>
+					<key xsi:type="xsd:string">slsEnabledInd</key>
+					<value xsi:nil="true"/>
+				</item>							
+				<item>
+					<key xsi:type="xsd:string">allowPausedSlsDeliveryInd</key>
+					<value xsi:nil="true"/>
+				</item>							
+				<item>
+					<key xsi:type="xsd:string">splitTestEnabledInd</key>
+					<value xsi:nil="true"/>
+				</item>							
+				<item>
+					<key xsi:type="xsd:string">itsEnabledInd</key>
+					<value xsi:nil="true"/>
+				</item>							
+				<item>
+					<key xsi:type="xsd:string">limitReceiptActiveInd</key>
+					<value xsi:nil="true"/>
+				</item>							
+				<item>
+					<key xsi:type="xsd:string">deliveryFrequencyDays</key>
+					<value xsi:nil="true"/>
+				</item>							
+				<item>
+					<key xsi:type="xsd:string">deliveryFrequencyType</key>
+					<value xsi:nil="true"/>
+				</item>							
+				<item>
+					<key xsi:type="xsd:string">deliveryFrequencyCondition</key>
+					<value xsi:nil="true"/>
+				</item>							
+				<item>
+					<key xsi:type="xsd:string">deliveryFrequencyNoSendAction</key>
+					<value xsi:nil="true"/>
+				</item>							
+				<item>
+					<key xsi:type="xsd:string">deliveryFrequencyResumeAction</key>
+					<value xsi:nil="true"/>
+				</item>							
+				<item>
+					<key xsi:type="xsd:string">allowDefaultDynamicReplyInd</key>
+					<value xsi:nil="true"/>
+				</item>							
+				<item>
+					<key xsi:type="xsd:string">autoRescheduleResendInd</key>
+					<value xsi:nil="true"/>
+				</item>							
+				<item>
+					<key xsi:type="xsd:string">facebookEnabledInd</key>
+					<value xsi:nil="true"/>
+				</item>							
+				<item>
+					<key xsi:type="xsd:string">twitterEnabledInd</key>
+					<value xsi:nil="true"/>
+				</item>							
+				<item>
+					<key xsi:type="xsd:string">bitlyEnabledInd</key>
+					<value xsi:nil="true"/>
+				</item>							
+			</entityData>
+			<processData xsi:nil="true"/>
+		</ns1:handleRequest>
+	</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

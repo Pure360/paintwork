@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="urn:localhost-paint" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns2="http://xml.apache.org/xml-soap" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+	<SOAP-ENV:Body>
+		<ns1:handleRequest>
+			<contextId xsi:type="xsd:string">01234567890</contextId>
+			<className xsi:type="xsd:string">bus_facade_campaign_list</className>
+			<processName xsi:type="xsd:string">create</processName>
+			<entityData xsi:type="ns2:Map">
+				<item>
+					<key xsi:type="xsd:string">listName</key>
+					<value xsi:nil="true"/>
+				</item>
+				<item>
+					<key xsi:type="xsd:string">languageCode</key>
+					<value xsi:type="xsd:string">en_GB.ISO8859-15</value>
+				</item>
+				<item>
+					<key xsi:type="xsd:string">emailCol</key>
+					<value xsi:type="xsd:int">-1</value>
+				</item>
+				<item>
+					<key xsi:type="xsd:string">mobileCol</key>
+					<value xsi:type="xsd:int">-1</value>
+				</item>
+				<item>
+					<key xsi:type="xsd:string">signupDateCol</key>
+					<value xsi:type="xsd:int">-1</value>
+				</item>
+
+				<item>
+					<key xsi:type="xsd:string">uploadFile</key>
+					<value xsi:nil="true"/>
+				</item>
+				<item>
+					<key xsi:type="xsd:string">pasteFile</key>
+					<value xsi:nil="true"/>
+				</item>
+				<item>
+					<key xsi:type="xsd:string">uploadFileCategory</key>
+					<value xsi:nil="true"/>
+				</item>
+				<item>
+					<key xsi:type="xsd:string">pasteFileType</key>
+					<value xsi:nil="true"/>
+				</item>
+				<item>
+					<key xsi:type="xsd:string">uploadFileNotifyEmail</key>
+					<value xsi:nil="true"/>
+				</item>
+				<item>
+					<key xsi:type="xsd:string">uploadTransactionType</key>
+					<value xsi:type="xsd:string">CREATE</value>
+				</item>
+
+				<item>
+					<key xsi:type="xsd:string">field1Name</key>
+					<value xsi:nil="true"/>
+				</item>
+				<item>
+					<key xsi:type="xsd:string">field2Name</key>
+					<value xsi:nil="true"/>
+				</item>
+				<item>
+					<key xsi:type="xsd:string">field3Name</key>
+					<value xsi:nil="true"/>
+				</item>
+				<item>
+					<key xsi:type="xsd:string">field4Name</key>
+					<value xsi:nil="true"/>
+				</item>
+				<item>
+					<key xsi:type="xsd:string">field5Name</key>
+					<value xsi:nil="true"/>
+				</item>
+				<item>
+					<key xsi:type="xsd:string">field6Name</key>
+					<value xsi:nil="true"/>
+				</item>
+				<item>
+					<key xsi:type="xsd:string">field7Name</key>
+					<value xsi:nil="true"/>
+				</item>
+				<item>
+					<key xsi:type="xsd:string">field8Name</key>
+					<value xsi:nil="true"/>
+				</item>
+				<item>
+					<key xsi:type="xsd:string">field9Name</key>
+					<value xsi:nil="true"/>
+				</item>
+				<item>
+					<key xsi:type="xsd:string">field10Name</key>
+					<value xsi:nil="true"/>
+				</item>
+				<item>
+					<key xsi:type="xsd:string">field1DataType</key>
+					<value xsi:nil="true"/>
+				</item>
+				<item>
+					<key xsi:type="xsd:string">field2DataType</key>
+					<value xsi:nil="true"/>
+				</item>
+				<item>
+					<key xsi:type="xsd:string">field3DataType</key>
+					<value xsi:nil="true"/>
+				</item>
+				<item>
+					<key xsi:type="xsd:string">field4DataType</key>
+					<value xsi:nil="true"/>
+				</item>
+				<item>
+					<key xsi:type="xsd:string">field5DataType</key>
+					<value xsi:nil="true"/>
+				</item>
+				<item>
+					<key xsi:type="xsd:string">field6DataType</key>
+					<value xsi:nil="true"/>
+				</item>
+				<item>
+					<key xsi:type="xsd:string">field7DataType</key>
+					<value xsi:nil="true"/>
+				</item>
+				<item>
+					<key xsi:type="xsd:string">field8DataType</key>
+					<value xsi:nil="true"/>
+				</item>
+				<item>
+					<key xsi:type="xsd:string">field9DataType</key>
+					<value xsi:nil="true"/>
+				</item>
+				<item>
+					<key xsi:type="xsd:string">field10DataType</key>
+					<value xsi:nil="true"/>
+				</item>
+				<item>
+					<key xsi:type="xsd:string">field1DataFormat</key>
+					<value xsi:nil="true"/>
+				</item>
+				<item>
+					<key xsi:type="xsd:string">field2DataFormat</key>
+					<value xsi:nil="true"/>
+				</item>
+				<item>
+					<key xsi:type="xsd:string">field3DataFormat</key>
+					<value xsi:nil="true"/>
+				</item>
+				<item>
+					<key xsi:type="xsd:string">field4DataFormat</key>
+					<value xsi:nil="true"/>
+				</item>
+				<item>
+					<key xsi:type="xsd:string">field5DataFormat</key>
+					<value xsi:nil="true"/>
+				</item>
+				<item>
+					<key xsi:type="xsd:string">field6DataFormat</key>
+					<value xsi:nil="true"/>
+				</item>
+				<item>
+					<key xsi:type="xsd:string">field7DataFormat</key>
+					<value xsi:nil="true"/>
+				</item>
+				<item>
+					<key xsi:type="xsd:string">field8DataFormat</key>
+					<value xsi:nil="true"/>
+				</item>
+				<item>
+					<key xsi:type="xsd:string">field9DataFormat</key>
+					<value xsi:nil="true"/>
+				</item>
+				<item>
+					<key xsi:type="xsd:string">field10DataFormat</key>
+					<value xsi:nil="true"/>
+				</item>
+				<item>
+					<key xsi:type="xsd:string">field1Col</key>
+					<value xsi:type="xsd:int">-1</value>
+				</item>
+				<item>
+					<key xsi:type="xsd:string">field2Col</key>
+					<value xsi:type="xsd:int">-1</value>
+				</item>
+				<item>
+					<key xsi:type="xsd:string">field3Col</key>
+					<value xsi:type="xsd:int">-1</value>
+				</item>
+				<item>
+					<key xsi:type="xsd:string">field4Col</key>
+					<value xsi:type="xsd:int">-1</value>
+				</item>
+				<item>
+					<key xsi:type="xsd:string">field5Col</key>
+					<value xsi:type="xsd:int">-1</value>
+				</item>
+				<item>
+					<key xsi:type="xsd:string">field6Col</key>
+					<value xsi:type="xsd:int">-1</value>
+				</item>
+				<item>
+					<key xsi:type="xsd:string">field7Col</key>
+					<value xsi:type="xsd:int">-1</value>
+				</item>
+				<item>
+					<key xsi:type="xsd:string">field8Col</key>
+					<value xsi:type="xsd:int">-1</value>
+				</item>
+				<item>
+					<key xsi:type="xsd:string">field9Col</key>
+					<value xsi:type="xsd:int">-1</value>
+				</item>
+				<item>
+					<key xsi:type="xsd:string">field10Col</key>
+					<value xsi:type="xsd:int">-1</value>
+				</item>
+			</entityData>
+			<processData xsi:nil="true"/>
+		</ns1:handleRequest>
+	</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="urn:localhost-paint" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns2="http://xml.apache.org/xml-soap" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+	<SOAP-ENV:Body>
+		<ns1:handleRequest>
+			<contextId xsi:type="xsd:string">01234567890</contextId>
+			<className xsi:type="xsd:string">bus_facade_account_identity</className>
+			<processName xsi:type="xsd:string">registerExternalSystem</processName>
+			<entityData xsi:type="ns2:Map">
+
+			</entityData>
+			<processData xsi:type="ns2:Map">
+				<item>
+					<key xsi:type="xsd:string">externalSystemType</key>
+					<value xsi:type="xsd:string">CRM</value>
+				</item>
+				<item>
+					<!-- 
+						External System Key can be one of the following:
+							- msdynamics_crm_4_op
+							- msdynamics_crm_2011_op
+					-->
+					<key xsi:type="xsd:string">externalSystemKey</key>
+					<value xsi:type="xsd:string">msdynamics_crm_2011_op</value>
+				</item>
+				<item>
+					<key xsi:type="xsd:string">isRemoveInd</key>
+					<value xsi:type="xsd:string">N</value>
+				</item>
+				<item>
+					<key xsi:type="xsd:string">externalSystemDetails</key>
+					<value xsi:type="ns2:Map">
+						<item>
+							<key xsi:type="xsd:string">userName</key>
+							<value xsi:type="xsd:string">test_user</value>
+						</item>		
+						<item>
+							<key xsi:type="xsd:string">password</key>
+							<value xsi:type="xsd:string">password</value>
+						</item>		
+						<item>
+							<key xsi:type="xsd:string">organisation</key>
+							<value xsi:type="xsd:string">ACME Corporation</value>
+						</item>		
+						<item>
+							<key xsi:type="xsd:string">url</key>
+							<value xsi:type="xsd:string">http://10.0.0.251/crm/api</value>
+						</item>		
+					</value>
+				</item>		
+			</processData>
+		</ns1:handleRequest>
+	</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

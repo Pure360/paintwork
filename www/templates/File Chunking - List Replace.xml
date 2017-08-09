@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="urn:localhost-paint" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns2="http://xml.apache.org/xml-soap" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+	<SOAP-ENV:Body>
+		<ns1:handleRequest>
+			<contextId xsi:type="xsd:string">01234567890</contextId>
+			<className xsi:type="xsd:string">bus_facade_campaign_list</className>
+			<processName xsi:type="xsd:string">create</processName>
+			<entityData xsi:type="ns2:Map">
+				<item>
+					<key xsi:type="xsd:string">listName</key>
+					<value xsi:type="xsd:string">temp_list_name</value>
+				</item>
+				<item>
+					<key xsi:type="xsd:string">languageCode</key>
+					<value xsi:type="xsd:string">en_GB.ISO8859-15</value>
+				</item>
+				<item>
+					<key xsi:type="xsd:string">emailCol</key>
+					<value xsi:type="xsd:int">0</value>
+				</item>
+				<item>
+					<key xsi:type="xsd:string">uploadFile</key>
+					<value xsi:nil="true"/>
+				</item>
+				<item>
+					<key xsi:type="xsd:string">uploadFileCategory</key>
+					<value  xsi:type="xsd:string">PAINT</value>
+				</item>
+				<item>
+					<key xsi:type="xsd:string">uploadFileNotifyEmail</key>
+					<value  xsi:type="xsd:string">http://www.sjwaller.com/storage/clicklog.php</value>
+				</item>
+				<item>
+					<key xsi:type="xsd:string">uploadFileNotifyType</key>
+					<value  xsi:type="xsd:string">HTTP</value>
+				</item>
+				<item>
+					<key xsi:type="xsd:string">uploadTransactionType</key>
+					<value xsi:type="xsd:string">REPLACE</value>
+				</item>
+				<item>
+					<key xsi:type="xsd:string">field1Name</key>
+					<value xsi:type="xsd:string">firstname</value>
+				</item>
+				<item>
+					<key xsi:type="xsd:string">field2Name</key>
+					<value xsi:type="xsd:string">lastname</value>
+				</item>
+				<item>
+					<key xsi:type="xsd:string">field1DataType</key>
+					<value xsi:nil="true"/>
+				</item>
+				<item>
+					<key xsi:type="xsd:string">field2DataType</key>
+					<value xsi:nil="true"/>
+				</item>
+				<item>
+					<key xsi:type="xsd:string">field1DataFormat</key>
+					<value xsi:nil="true"/>
+				</item>
+				<item>
+					<key xsi:type="xsd:string">field2DataFormat</key>
+					<value xsi:nil="true"/>
+				</item>
+				<item>
+					<key xsi:type="xsd:string">field1Col</key>
+					<value xsi:type="xsd:int">1</value>
+				</item>
+				<item>
+					<key xsi:type="xsd:string">field2Col</key>
+					<value xsi:type="xsd:int">2</value>
+				</item>
+			</entityData>
+			<processData xsi:nil="true"/>
+		</ns1:handleRequest>
+	</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

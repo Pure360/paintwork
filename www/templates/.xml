@@ -1,0 +1,13 @@
+An error occured parsing response XML:
+
+\n\nLibXMLError Object
+(
+    [level] => 3
+    [code] => 4
+    [column] => 1
+    [message] => Start tag expected, '<' not found
+
+    [file] => 
+    [line] => 2
+)
+\n\n<?xml version="1.0"?>
